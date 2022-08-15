@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+    <!-- Section Header -->
+    <section id="header">
+        <a href="#">
+            <img src="./img/logo.png" alt="" class="logo">
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <li class="navbar-item">
+                    <a class="navbar-item-link" href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-item-link" href="shop.html">Shop</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-item-link" href="blog.html">Blog</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-item-link" href="about.html">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-item-link" href="contact.html">Contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-item-link lg-cart active" href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </li>
+
+                <a href="#" id="navbar__close">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </ul>
+        </div>
+
+        <!-- Mobile Navbar -->
+        <div id="mobile">
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <i id="mobile__navbar-icon" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- Page header -->
+    <section id="page-header" class="about-header">
+        <h2>#CheckOut</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, adipisci?!</p>
+    </section>
+
+    <!-- Cart -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="./img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$79.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$79.00</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="./img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$79.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$79.00</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="./img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$79.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$79.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Cart Add -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$237</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$237</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="footer-logo" src="./img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Truong Chinh street,Ward 15, Tan Binh district, HCM city</p>
+            <p><strong>Phone:</strong> +84975xxxxxx</p>
+            <p><strong>Hour:</strong> 09:00 - 18:00, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="social-network">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./img/pay/app.jpg" alt="">
+                <img src="./img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022, By Shukajnhon</p>
+        </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
